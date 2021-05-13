@@ -32,9 +32,9 @@ rabbitmq_yum_gpgcheck: false
 rabbitmq_yum_repo_gpgkey: https://packagecloud.io/rabbitmq/rabbitmq-server/gpgkey
 rabbitmq_yum_repo_gpgcheck: true
 
-erlang_apt_repo_gpgkey_id: "F77F1EDA57EBB1CC"
+erlang_apt_repo_gpgkey_id: "D208507CA14F4FCA"
 erlang_apt_repo_gpgkey_server: "keyserver.ubuntu.com"
-erlang_apt_repo_url: "deb http://ppa.launchpad.net/rabbitmq/rabbitmq-erlang/ubuntu bionic main"
+erlang_apt_repo_url: "deb https://packages.erlang-solutions.com/ubuntu bionic contrib"
 
 rabbitmq_apt_repo_gpgkey_id: "F6609E60DC62814E"
 rabbitmq_apt_repo_gpgkey_server: "keyserver.ubuntu.com"
